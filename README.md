@@ -1,12 +1,10 @@
-# 🎮 Play & Learn ML — Interactive ML Playground
+# Play & Learn ML — Interactive ML Playground
 
 **Play & Learn ML** turns abstract ML concepts into tangible, interactive playgrounds. Instead of math formulas and static charts, you drag ropes, snap magnets, grow trees, convene juries, and build Lego neural networks.
 
-👉 **[Built By Harish Kotra](https://harishkotra.me)**
-
 ---
 
-## 🧠 What You'll Learn — 5 Modules, 5 Levels Each
+## What You'll Learn — 5 Modules, 5 Levels Each
 
 | Module | Concept | The Metaphor | How You Play |
 |---|---|---|---|
@@ -20,7 +18,7 @@ Each module has **5 progressive levels** — start simple and ramp up to expert 
 
 ---
 
-## 🎮 Quick Start
+## Quick Start
 
 ```bash
 npm install
@@ -37,7 +35,7 @@ npm run preview
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 src/
@@ -95,7 +93,7 @@ React State (useState, useLevelSystem)
 
 ---
 
-## 🎯 Key Design Principles
+## Key Design Principles
 
 ### 1. Physical Metaphors
 Every concept maps to a tangible interaction:
@@ -118,12 +116,12 @@ No static explanations — every concept is revealed through interaction:
 
 ---
 
-## 🤝 How to Contribute
+## How to Contribute
 
 ### Fork & Clone
 
 ```bash
-git clone https://github.com/your-username/play-learn-ml.git
+git clone https://github.com/harishkotra/play-learn-ml.git
 cd play-learn-ml
 npm install
 npm run dev
@@ -157,20 +155,6 @@ npm run dev
 2. Fork the repo and create a branch (`feature/your-idea`)
 3. Ensure `npm run build` passes
 4. Submit a PR with a clear description of what changed and why
-
----
-
-## 📄 License
-
-MIT — free to use, modify, and share.
-
----
-
-## 👨‍💻 Built By
-
-**[Harish Kotra](https://harishkotra.me)** — building one thing every day.
-
-**Check out my other builds → [dailybuild.xyz](https://dailybuild.xyz)**
 
 ---
 
