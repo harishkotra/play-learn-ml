@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-workshop-bg: #0f0f1a;
+  --color-workshop-surface: #1a1a2e;
+  --color-workshop-border: #2a2a4a;
+  --color-workshop-accent: #6c63ff;
+  --color-workshop-accent2: #ff6b9d;
+  --color-workshop-accent3: #45e6c0;
+  --color-workshop-accent4: #ffd93d;
+  --color-workshop-text: #e8e8f0;
+  --color-workshop-muted: #8888aa;
+}
+
+body {
+  margin: 0;
+  background: var(--color-workshop-bg);
+  color: var(--color-workshop-text);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
