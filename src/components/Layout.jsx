@@ -21,6 +21,24 @@ const modules = [
     icon: "🧱",
     desc: "Neural Networks",
   },
+  {
+    path: "/gradient-descent",
+    label: "Roller Coaster",
+    icon: "🎢",
+    desc: "Gradient Descent",
+  },
+  {
+    path: "/confusion-matrix",
+    label: "Sorting Machine",
+    icon: "📋",
+    desc: "Confusion Matrix",
+  },
+  {
+    path: "/overfitting",
+    label: "Emperor's Tailor",
+    icon: "👑",
+    desc: "Overfitting",
+  },
 ];
 
 export default function Layout() {

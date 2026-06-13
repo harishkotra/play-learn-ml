@@ -6,6 +6,9 @@ import TwentyQuestions from "./workbenches/DecisionTrees/TwentyQuestions";
 import MagneticClusters from "./workbenches/KMeans/MagneticClusters";
 import JuryRoom from "./workbenches/Ensemble/JuryRoom";
 import LegoBlocks from "./workbenches/NeuralNetworks/LegoBlocks";
+import RollerCoaster from "./workbenches/GradientDescent/RollerCoaster";
+import SortingMachine from "./workbenches/ConfusionMatrix/SortingMachine";
+import EmperorsTailor from "./workbenches/Overfitting/EmperorsTailor";
 
 export default function App() {
   return (
@@ -18,6 +21,9 @@ export default function App() {
           <Route path="/k-means" element={<MagneticClusters />} />
           <Route path="/ensemble" element={<JuryRoom />} />
           <Route path="/neural-networks" element={<LegoBlocks />} />
+          <Route path="/gradient-descent" element={<RollerCoaster />} />
+          <Route path="/confusion-matrix" element={<SortingMachine />} />
+          <Route path="/overfitting" element={<EmperorsTailor />} />
         </Route>
       </Routes>
     </BrowserRouter>

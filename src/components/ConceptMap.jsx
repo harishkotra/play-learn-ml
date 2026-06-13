@@ -46,6 +46,33 @@ const modules = [
     bg: "bg-workshop-surface",
     desc: "Drag and connect layers like building blocks. Watch neurons glow as signals flow through your creation.",
   },
+  {
+    path: "/gradient-descent",
+    icon: "🎢",
+    title: "Roller Coaster",
+    subtitle: "Gradient Descent",
+    color: "border-workshop-accent2",
+    bg: "bg-workshop-accent2/10",
+    desc: "Watch a ball roll down the loss landscape as gradient descent finds the minimum. Adjust learning rate and momentum.",
+  },
+  {
+    path: "/confusion-matrix",
+    icon: "📋",
+    title: "Sorting Machine",
+    subtitle: "Confusion Matrix",
+    color: "border-workshop-accent3",
+    bg: "bg-workshop-accent3/10",
+    desc: "Drag predictions into TP/TN/FP/FN bins. See how a confusion matrix reveals the types of errors a model makes.",
+  },
+  {
+    path: "/overfitting",
+    icon: "👑",
+    title: "Emperor's Tailor",
+    subtitle: "Overfitting Simulator",
+    color: "border-workshop-accent4",
+    bg: "bg-workshop-accent4/10",
+    desc: "A tailor who perfectly fits the noise, not the signal. Watch how complex polynomial models overfit training data.",
+  },
 ];
 
 export default function ConceptMap() {
