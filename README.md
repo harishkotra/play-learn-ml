@@ -190,6 +190,24 @@ npm run dev
 3. Ensure `npm run build` passes
 4. Submit a PR with a clear description of what changed and why
 
+#### Screenshots
+
+<img width="1741" height="2227" alt="screencapture-localhost-8501-2026-06-12-00_00_48" src="https://github.com/user-attachments/assets/5fad9696-bff7-4e58-a2d4-a3c339a727da" />
+<img width="1740" height="1272" alt="screencapture-localhost-5173-linear-regression-2026-06-12-21_07_43" src="https://github.com/user-attachments/assets/01dc687d-7216-4b32-a4f5-9c74dc42ae90" />
+<img width="1740" height="1272" alt="screencapture-localhost-5173-decision-trees-2026-06-12-21_07_47" src="https://github.com/user-attachments/assets/ddf1151c-bcc3-4a2a-bd1f-86ca5447c9d6" />
+<img width="1740" height="1272" alt="screencapture-localhost-5173-k-means-2026-06-12-21_07_56" src="https://github.com/user-attachments/assets/655e84aa-7b57-410e-a736-1052adc2946d" />
+<img width="1740" height="1343" alt="screencapture-localhost-5173-ensemble-2026-06-12-21_08_06" src="https://github.com/user-attachments/assets/c85d5502-2c0f-47e9-9887-0f4b87b8812f" />
+<img width="1740" height="1272" alt="screencapture-localhost-5173-neural-networks-2026-06-12-21_08_29" src="https://github.com/user-attachments/assets/9212a092-2924-483d-9cfb-a720a27236fe" />
+<img width="1660" height="995" alt="screencapture-localhost-5173-gradient-descent-2026-06-13-23_42_32" src="https://github.com/user-attachments/assets/ad92f79b-c86b-4950-b548-09a6ce9bf867" />
+<img width="1660" height="995" alt="screencapture-localhost-5173-confusion-matrix-2026-06-13-23_42_44" src="https://github.com/user-attachments/assets/af58baf7-3a1d-4f59-873d-e6411e151c94" />
+<img width="1660" height="995" alt="screencapture-localhost-5173-overfitting-2026-06-13-23_42_50" src="https://github.com/user-attachments/assets/91892128-9497-45fa-9228-03367c83dd58" />
+<img width="1660" height="1173" alt="screencapture-play-learn-ml-vercel-app-2026-06-13-23_52_46" src="https://github.com/user-attachments/assets/7b9ba221-9881-4695-be3d-7fdbb77e0826" />
+<img width="1660" height="995" alt="screencapture-localhost-5173-pca-2026-06-14-00_09_44" src="https://github.com/user-attachments/assets/6f2f9065-0988-490b-a833-1ce710a868a6" />
+<img width="1660" height="995" alt="screencapture-localhost-5173-logistic-regression-2026-06-14-00_09_38" src="https://github.com/user-attachments/assets/b3ed42c3-cab2-4a04-9627-7c03ba31227e" />
+<img width="1660" height="995" alt="screencapture-localhost-5173-tsne-2026-06-14-00_10_34" src="https://github.com/user-attachments/assets/f2ffd1ea-576d-447b-b1e1-b2382d353c12" />
+<img width="1660" height="995" alt="screencapture-localhost-5173-svm-2026-06-14-00_09_55" src="https://github.com/user-attachments/assets/fddcb6d9-b059-4085-a0d5-c97242ef5cdd" />
+<img width="1660" height="995" alt="screencapture-localhost-5173-naive-bayes-2026-06-14-00_10_09" src="https://github.com/user-attachments/assets/fe19818e-95f4-4ef3-8c4c-4addd518e601" />
+
 ---
 
 *"Tell me and I forget, teach me and I remember, involve me and I learn." — Benjamin Franklin*
