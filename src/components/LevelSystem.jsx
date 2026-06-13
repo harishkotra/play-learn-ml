@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useLanguage } from "../utils/LanguageContext";
 
 export default function LevelSystem({
   levels,
@@ -9,6 +10,7 @@ export default function LevelSystem({
   justCompleted,
   onNext,
 }) {
+  const { t } = useLanguage();
   const level = levels[currentLevel - 1];
   if (!level) return null;
 
@@ -17,7 +19,7 @@ export default function LevelSystem({
       <div className="p-3 border-b border-workshop-border bg-workshop-bg">
         <div className="flex items-center justify-between mb-2">
           <h3 className="text-xs font-semibold text-workshop-accent tracking-wider uppercase">
-            Levels
+            {t("levels.title")}
           </h3>
           <div className="flex items-center gap-0.5">
             {levels.map((l, i) => {
@@ -64,12 +66,12 @@ export default function LevelSystem({
           <div className="flex items-center justify-between">
             <div>
               <div className="text-xs font-semibold text-workshop-accent3">
-                Level Complete! 🎉
+                {t("levels.complete")}
               </div>
               <div className="text-[11px] text-workshop-muted mt-0.5">
                 {currentLevel < levels.length
-                  ? `Ready for "${levels[currentLevel].title}"?`
-                  : "You've mastered all levels!"}
+                  ? t("levels.ready", levels[currentLevel].title)
+                  : t("levels.mastered")}
               </div>
             </div>
             {currentLevel < levels.length && (
@@ -77,7 +79,7 @@ export default function LevelSystem({
                 onClick={onNext}
                 className="px-3 py-1.5 bg-workshop-accent3 text-workshop-bg rounded-lg text-xs font-semibold cursor-pointer hover:bg-workshop-accent3/90 transition-colors"
               >
-                Next Level →
+                {t("levels.next")}
               </button>
             )}
           </div>

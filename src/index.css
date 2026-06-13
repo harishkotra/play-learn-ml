@@ -22,3 +22,49 @@ body {
 #root {
   min-height: 100vh;
 }
+
+svg {
+  touch-action: none;
+  max-width: 100%;
+  height: auto;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: var(--color-workshop-border);
+  border-radius: 3px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-workshop-accent);
+  cursor: pointer;
+  border: 2px solid var(--color-workshop-text);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-workshop-accent);
+  cursor: pointer;
+  border: 2px solid var(--color-workshop-text);
+}
+
+@media (max-width: 768px) {
+  .workshop-canvas {
+    width: 100% !important;
+    overflow-x: auto;
+  }
+  .workshop-canvas svg {
+    max-width: 100%;
+    height: auto;
+  }
+}

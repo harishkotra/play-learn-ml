@@ -1,11 +1,8 @@
 import { useState, Fragment } from "react";
+import { useLanguage } from "../utils/LanguageContext";
 
-const sections = [
-  { key: "definition", icon: "📖", label: "Definition" },
-  { key: "how", icon: "🔧", label: "How it works" },
-  { key: "why", icon: "💡", label: "Why it matters" },
-  { key: "what", icon: "👆", label: "What to do" },
-];
+const sections = ["definition", "how", "why", "what"];
+const sectionIcons = { definition: "📖", how: "🔧", why: "💡", what: "👆" };
 
 function renderLine(line, i) {
   const parts = [];
@@ -62,6 +59,7 @@ function renderParagraph(text, i) {
 
 export default function DefinitionGuide({ title, definition, how, why, what }) {
   const [open, setOpen] = useState("definition");
+  const { t } = useLanguage();
   const toggle = (key) => setOpen(open === key ? null : key);
   const content = { definition, how, why, what };
 
@@ -73,7 +71,7 @@ export default function DefinitionGuide({ title, definition, how, why, what }) {
         </h3>
       </div>
 
-      {sections.map(({ key, icon, label }) => (
+      {sections.map((key) => (
         <div key={key}>
           <button
             onClick={() => toggle(key)}
@@ -83,8 +81,8 @@ export default function DefinitionGuide({ title, definition, how, why, what }) {
                 : "text-workshop-muted hover:text-workshop-text hover:bg-workshop-border/30"
             }`}
           >
-            <span>{icon}</span>
-            <span className="font-medium">{label}</span>
+            <span>{sectionIcons[key]}</span>
+            <span className="font-medium">{t("guide." + key)}</span>
             <span
               className="ml-auto transition-transform"
               style={{
